@@ -158,7 +158,11 @@ a.button span {
 #view-on-github span {
   background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
 }
-#view-on-github {
+#view-on-gitlab span {
+  background: transparent url(../images/gitlab-logo-square.png) 12px 50% no-repeat;
+}
+
+#view-on-gitlab {
   margin-right: 0;
 }
 
