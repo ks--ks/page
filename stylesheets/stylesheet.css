@@ -109,9 +109,10 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 119px;
+  width: 150px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
+  margin-bottom: 14px;
   font-size: 15px;
   font-weight: bold;
   line-height: 25px;
@@ -326,7 +327,7 @@ dl dt {
 footer {
   padding-top: 20px;
   padding-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 0px;
   font-size: 13px;
   color: #aaa;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
@@ -390,8 +391,18 @@ footer a:hover {
 		max-height: 100%;
 		margin-bottom: 20px;
 	}
-	.button {
-		margin-bottom: 10px;
+	a.button {
+	  display: block;
+	  float:inherit;
+		width: 100%;
+	  min-width: 130px;
+		max-width: 160px;
+		margin-bottom: 20px;
+		padding: 20px 5px 20px 20px;
+	}
+	#downloads {
+		width: 50%;
+		margin: 0 auto;
 	}
 	footer {
 		margin-top: 0px;
