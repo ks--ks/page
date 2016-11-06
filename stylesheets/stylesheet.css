@@ -385,6 +385,12 @@ footer a:hover {
 		max-height: 100%;
 		margin-bottom: 20px;
 	}
+	.button {
+		margin-bottom: 10px;
+	}
+	footer {
+		margin-top: 0px;
+	}
 }
 
 #about-image {
