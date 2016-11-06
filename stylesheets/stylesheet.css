@@ -391,6 +391,9 @@ footer a:hover {
 	footer {
 		margin-top: 0px;
 	}
+	.subtitle {
+		display: block;
+	}
 }
 
 #about-image {
@@ -399,7 +402,6 @@ footer a:hover {
 	border-radius: 8px;
 	-moz-border-radius: 8px;
 	-webkit-border-radius: 8px;
-
 }
 
 .tag {
