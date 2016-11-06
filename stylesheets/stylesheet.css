@@ -65,7 +65,7 @@ a:hover {
 
 header {
   padding-top: 35px;
-  padding-bottom: 25px;
+  padding-bottom: 10px;
 }
 
 header h1 {
@@ -360,9 +360,11 @@ footer a:hover {
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width: 767px) {
-  header {
+	header h1 {
+		padding-bottom: 10px;
+	}
+	header {
     padding-top: 10px;
-    padding-bottom: 10px;
   }
   #downloads {
     margin-bottom: 25px;
