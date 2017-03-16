@@ -264,8 +264,8 @@ h2 {
 }
 
 h3 {
-  margin-bottom: 25px;
-  font-size: 18px;
+  margin-bottom: 10px;
+  font-size: 20px;
   font-weight: bold;
   color: #d5000d;
 }
@@ -371,10 +371,7 @@ footer a:hover {
     padding-top: 10px;
   }
   #downloads {
-    margin-bottom: 25px;
-  }
-  #download-zip, #download-tar-gz {
-    display: none;
+    margin-bottom: 15px;
   }
   .inner {
     width: 94%;
@@ -409,6 +406,9 @@ footer a:hover {
 	}
 	.subtitle {
 		display: block;
+	}
+	h3 {
+	  margin-bottom: 20px;
 	}
 }
 
