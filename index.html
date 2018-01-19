@@ -114,23 +114,23 @@
 
         </section>
 
-        <div id="content"></div>
+        <h3>recent publications</h3>
+        <div id="publications_content"></div>
 
         <script type="text/javascript">
-            var content = document.getElementById('content');
+            var publicationsContent = document.getElementById('publications_content');
 
             function showFeed(data){
                 if(data.status == 'ok'){
-                    var output = '<h3>recent publications</h3>';
-                    //output += '<h4>'+data.feed.title+'</h4></br>';
-                    output += '<div><ul>';
+                    var output = '<div><ul>';
+
                     for(var i=0;i<data.items.length;++i){
                         output += '<li><a class="publication" href="' +
                         data.items[i].link + '" >' +
                         data.items[i].title + '</a></li>';
                     }
                     output += '</div></ul>';
-                    content.innerHTML = output;
+                    publicationsContent.innerHTML = output;
                 }
             }
         </script>
