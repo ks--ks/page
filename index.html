@@ -114,6 +114,31 @@
 
         </section>
 
+        <div id="content"></div>
+
+        <script type="text/javascript">
+            var content = document.getElementById('content');
+
+            function showFeed(data){
+                if(data.status == 'ok'){
+                    var output = '<h3>recent publications</h3>';
+                    //output += '<h4>'+data.feed.title+'</h4></br>';
+                    output += '<div><ul>';
+                    for(var i=0;i<data.items.length;++i){
+                        output += '<li><a class="publication" href="' +
+                        data.items[i].link + '" >' +
+                        data.items[i].title + '</a></li>';
+                    }
+                    output += '</div></ul>';
+                    content.innerHTML = output;
+                }
+            }
+        </script>
+
+        <script type="text/javascript"
+                src="https://api.rss2json.com/v1/api.json?callback=showFeed&rss_url=https%3A%2F%2Fblog.olgaberezovsky.com%2Ffeed">
+        </script>
+
         <footer>
           Page is maintained by <a href="https://github.com/ks--ks/page">Olga Berezovsky</a>
           <br>
