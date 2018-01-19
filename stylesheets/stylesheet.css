@@ -102,10 +102,6 @@ header h2 {
 	max-height: 320px;
 }
 
-#downloads {
-  margin-bottom: 40px;
-}
-
 a.button {
   display: block;
   float: left;
@@ -375,9 +371,6 @@ footer a:hover {
 	}
 	header {
     padding-top: 10px;
-  }
-  #downloads {
-    margin-bottom: 15px;
   }
   .inner {
     width: 94%;
