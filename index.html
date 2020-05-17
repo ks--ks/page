@@ -122,25 +122,16 @@
         </section>
 
         <h3>Recent publications</h3>
-        <div id="publications_content"></div>
+        <div id="publications_content">
+          <ul>
+            <li><a class="publication" href="https://blog.olgaberezovsky.com/user-segmentation-and-power-user-analysis-in-sql-182e6c040235?source=rss----face63bd98c1---4" >User Segmentation and Power User Analysis in SQL</a></li>
+            <li><a class="publication" href="https://blog.olgaberezovsky.com/data-sampling-in-postgresql-b6a2a62e1e47?source=rss----face63bd98c1---4" >Data sampling in PostgreSQL</a></li>
+            <li><a class="publication" href="https://blog.olgaberezovsky.com/data-analysis-in-sqlite-data-formatting-casting-adcddfb0816e?source=rss----face63bd98c1---4" >Data analysis in SQLite — data formatting, casting</a></li>
+            <li><a class="publication" href="https://blog.olgaberezovsky.com/postgresql-joining-two-tables-which-are-not-related-by-a-foreign-key-relationship-a81c3504f78?source=rss----face63bd98c1---4" >PostgreSQL: joining two tables which are not related by a foreign key relationship</a></li>
+            <li><a class="publication" href="https://blog.olgaberezovsky.com/forecasting-modeling-in-r-495f69e1718f?source=rss----face63bd98c1---4" >Forecasting modeling in R</a></li></div></ul>
+          </ul>
+        </div>
 
-        <script type="text/javascript">
-            var publicationsContent = document.getElementById('publications_content');
-
-            function showFeed(data){
-                if(data.status == 'ok'){
-                    var output = '<div><ul>';
-
-                    for(var i=0;i<data.items.length;++i){
-                        output += '<li><a class="publication" href="' +
-                        data.items[i].link + '" >' +
-                        data.items[i].title + '</a></li>';
-                    }
-                    output += '</div></ul>';
-                    publicationsContent.innerHTML = output;
-                }
-            }
-        </script>
 
         <h3>connect with me</h3>
 
@@ -157,12 +148,6 @@
             <a href="https://gitlab.com/olgaberezovsky" id="view-on-gitlab" class="button"><span>GitLab</span></a>
           </span>
         </section>
-
-
-        <script type="text/javascript"
-                src="https://api.rss2json.com/v1/api.json?callback=showFeed&rss_url=https%3A%2F%2Fblog.olgaberezovsky.com%2Ffeed">
-        </script>
-
         <footer>
           Page is maintained by <a href="https://github.com/ks--ks/page">Olga Berezovsky</a>
           <br>
