@@ -414,9 +414,9 @@ footer a:hover {
 #about-image {
 	float: left;
 	margin-right: 20px;
-	border-radius: 8px;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	border-radius: 160px;
+	-moz-border-radius: 160px;
+	-webkit-border-radius: 160px;
 }
 
 .tag {
