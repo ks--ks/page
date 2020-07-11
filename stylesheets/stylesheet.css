@@ -53,7 +53,7 @@ body {
   line-height: 1.5;
   color: #6d6d6d;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
-  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  background: #E7E7E8 url(../images/body-bg.png) 0 0 repeat;
 }
 
 a {
@@ -178,6 +178,9 @@ a.publication {
 }
 #view-on-medium span {
   background: transparent url(../images/medium-m-color.png) 12px 50% no-repeat;
+}
+#view-on-substack span {
+  background: transparent url(../images/substack-30x30.png) 12px 50% no-repeat;
 }
 
 #view-on-gitlab {
