@@ -64,28 +64,28 @@ a:hover {
 }
 
 header {
-  padding-top: 35px;
-  padding-bottom: 10px;
+  padding-top: 2.1875rem;
+  padding-bottom: 0.625rem;
 }
 
 header h1 {
   font-family: 'Helvetica Neue', Helvetica, Arial, serif;
-  font-size: 48px; font-weight: 900;
+  font-size: 3rem; font-weight: 900;
   line-height: 1.2;
   color: #555;
-  letter-spacing: -1px;
+  letter-spacing: -0.0625rem;
 }
 
 header h2 {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: normal;
   line-height: 1.3;
   color: #999;
-  letter-spacing: -1px;
+  letter-spacing: -0.0625rem;
 }
 
 #container {
-  min-height: 595px;
+  min-height: 37.1875rem;
   background: transparent url(../images/highlight-bg.jpg) 50% 0 no-repeat;
 }
 
@@ -99,24 +99,24 @@ header h2 {
 }
 
 #about-image {
-	max-height: 320px;
+	max-height: 20rem;
 	float: left;
-	margin-right: 20px;
-	border-radius: 160px;
-	-moz-border-radius: 160px;
-	-webkit-border-radius: 160px;
+	margin-right: 1.25rem;
+	border-radius: 10rem;
+	-moz-border-radius: 10rem;
+	-webkit-border-radius: 10rem;
 }
 
 a.button {
   display: block;
   float: left;
-  width: 124px;
-  padding: 12px 8px 12px 8px;
-  margin-right: 14px;
-  margin-bottom: 14px;
-  font-size: 15px;
+  width: 7.75rem;
+  padding: 0.75rem 0.5rem 0.75rem 0.5rem;
+  margin-right: 0.875rem;
+  margin-bottom: 0.875rem;
+  font-size: 0.9375rem;
   font-weight: bold;
-  line-height: 25px;
+  line-height: 1.5625rem;
   color: #303030;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
@@ -130,12 +130,12 @@ a.button {
   border-right: solid 1px #b7b7b7;
   border-bottom: solid 1px #b3b3b3;
   border-left: solid 1px #b7b7b7;
-  border-radius: 8px;
-  -webkit-box-shadow: 10px 10px 5px #888;
-  -moz-box-shadow: 10px 10px 5px #888;
-  box-shadow: 0px 1px 5px #e8e8e8;
-  -moz-border-radius: 8px;
-  -webkit-border-radius: 8px;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 0.625rem 0.625rem 0.3125rem #888;
+  -moz-box-shadow: 0.625rem 0.625rem 0.3125rem #888;
+  box-shadow: 0rem 0.0625rem 0.3125rem #e8e8e8;
+  -moz-border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
 }
 
 a.button:hover {
@@ -155,48 +155,48 @@ a.button:hover {
 
 a.button span {
   display: block;
-  height: 23px;
-  padding-left: 50px;
+  height: 1.4375rem;
+  padding-left: 3.125rem;
 }
 
 a.publication {
 	color: #6d6d6d;
 	text-decoration: underline;
-	text-decoration-color: #d5000d;
+	/* text-decoration-color: #d5000d; */
 }
 
 #volunteering {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
 }
 
 a.badge {
   display: block;
   float: right;
-  margin-right: 54px;
-  margin-bottom: 14px;
+  margin-right: 3.375rem;
+  margin-bottom: 0.875rem;
 }
 
 img.badge {
-  height: 66px;
+  height: 4.125rem;
 }
 
 #view-on-linkedin span {
-  background: transparent url(../images/In-2C-21px-R.png) 12px 50% no-repeat;
+  background: transparent url(../images/In-2C-21px-R.png) 0.75rem 50% no-repeat;
 }
 #view-on-fb span {
-  background: transparent url(../images/fb-messenger.png) 12px 50% no-repeat;
+  background: transparent url(../images/fb-messenger.png) 0.75rem 50% no-repeat;
 }
 #view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+  background: transparent url(../images/octocat-icon.png) 0.75rem 50% no-repeat;
 }
 #view-on-gitlab span {
-  background: transparent url(../images/gitlab-logo-square.png) 12px 50% no-repeat;
+  background: transparent url(../images/gitlab-logo-square.png) 0.75rem 50% no-repeat;
 }
 #view-on-medium span {
-  background: transparent url(../images/medium-m-color.png) 12px 50% no-repeat;
+  background: transparent url(../images/medium-m-color.png) 0.75rem 50% no-repeat;
 }
 #view-on-substack span {
-  background: transparent url(../images/substack-30x30.png) 12px 50% no-repeat;
+  background: transparent url(../images/substack-30x30.png) 0.75rem 50% no-repeat;
 }
 
 #view-on-gitlab {
@@ -204,20 +204,20 @@ img.badge {
 }
 
 code, pre {
-  margin-bottom: 30px;
+  margin-bottom: 1.875rem;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal;
-  font-size: 14px;
+  font-size: 0.875rem;
   color: #222;
 }
 
 code {
-  padding: 0 3px;
+  padding: 0 0.1875rem;
   background-color: #f2f2f2;
   border: solid 1px #ddd;
 }
 
 pre {
-  padding: 20px;
+  padding: 1.25rem;
   overflow: auto;
   color: #f2f2f2;
   text-shadow: none;
@@ -231,17 +231,17 @@ pre code {
 }
 
 ul, ol, dl {
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 
 /* COMMON STYLES */
 
 hr {
-  height: 1px;
+  height: 0.0625rem;
   padding-bottom: 1em;
   margin-top: 1em;
-  line-height: 1px;
+  line-height: 0.0625rem;
   background: transparent url('../images/hr.png') 50% 0 no-repeat;
   border: none;
 }
@@ -270,7 +270,7 @@ td {
 }
 
 form {
-  padding: 20px;
+  padding: 1.25rem;
   background: #f2f2f2;
 
 }
@@ -279,25 +279,25 @@ form {
 /* GENERAL ELEMENT TYPE STYLES */
 
 h1 {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 h2 {
-  margin-bottom: 8px;
-  font-size: 22px;
+  margin-bottom: 0.5rem;
+  font-size: 1.375rem;
   font-weight: bold;
   color: #303030;
 }
 
 h3 {
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-bottom: 0.625rem;
+  font-size: 1.25rem;
   font-weight: bold;
   color: #d5000d;
 }
 
 h4 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   color: #303030;
 }
@@ -326,24 +326,24 @@ p a {
 }
 
 blockquote {
-  padding: 0 0 0 30px;
-  margin-bottom: 20px;
+  padding: 0 0 0 1.875rem;
+  margin-bottom: 1.25rem;
   font-size: 1.6em;
-  border-left: 10px solid #e9e9e9;
+  border-left: 0.625rem solid #e9e9e9;
 }
 
 ul li {
   list-style-position: inside;
   list-style: disc;
-  padding-left: 3px;
-	margin-left: 25px;
+  padding-left: 0.1875rem;
+	margin-left: 1.5625rem;
 
 }
 
 ol li {
   list-style-position: inside;
   list-style: decimal;
-  padding-left: 3px;
+  padding-left: 0.1875rem;
 }
 
 dl dt {
@@ -351,10 +351,10 @@ dl dt {
 }
 
 footer {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-top: 0px;
-  font-size: 13px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.875rem;
+  margin-top: 0rem;
+  font-size: 0.8125rem;
   color: #aaa;
   background: transparent url('../images/hr.png') 0 0 no-repeat;
 }
@@ -383,18 +383,18 @@ footer a:hover {
 ================================================== */
 
 /* Smaller than standard 960 (devices and browsers) */
-@media only screen and (max-width: 959px) { }
+@media only screen and (max-width: 59.9375rem) { }
 
 /* Tablet Portrait size to standard 960 (devices and browsers) */
-@media only screen and (min-width: 768px) and (max-width: 959px) { }
+@media only screen and (min-width: 48rem) and (max-width: 59.9375rem) { }
 
 /* All Mobile Sizes (devices and browser) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 47.9375rem) {
 	header h1 {
-		padding-bottom: 10px;
+		padding-bottom: 0.625rem;
 	}
 	header {
-    padding-top: 10px;
+    padding-top: 0.625rem;
   }
   .inner {
     width: 94%;
@@ -403,21 +403,21 @@ footer a:hover {
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-@media only screen and (min-width: 480px) and (max-width: 767px) { }
+@media only screen and (min-width: 30rem) and (max-width: 47.9375rem) { }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 29.9375rem) {
 	#about-image {
-		margin-bottom: 20px;
+		margin-bottom: 1.25rem;
 	}
 	a.button {
 	  display: block;
 	  float:inherit;
 		width: 100%;
-	  min-width: 130px;
-		max-width: 160px;
-		margin-bottom: 20px;
-		padding: 20px 5px 20px 20px;
+	  min-width: 8.125rem;
+		max-width: 10rem;
+		margin-bottom: 1.25rem;
+		padding: 1.25rem 0.3125rem 1.25rem 1.25rem;
 	}
 	#downloads {
 		width: 50%;
@@ -437,9 +437,9 @@ footer a:hover {
 .tag {
   display:inline-block;
 
-	padding: 2px 10px 2px 10px;
-	margin: 0px 0px 4px 4px;
-	font-size: 15px;
+	padding: 0.125rem 0.625rem 0.125rem 0.625rem;
+	margin: 0rem 0rem 0.25rem 0.25rem;
+	font-size: 0.9375rem;
 	font-weight: bold;
 	/*line-height: 30px;*/
 
@@ -457,11 +457,11 @@ footer a:hover {
 	border-bottom: solid 1px #b3b3b3;
 	border-left: solid 1px #b7b7b7;
 	border-radius: 8px;
-	-webkit-box-shadow: 10px 10px 5px #888;
-	-moz-box-shadow: 10px 10px 5px #888;
-	box-shadow: 0px 1px 5px #e8e8e8;
-	-moz-border-radius: 8px;
-	-webkit-border-radius: 8px;
+	-webkit-box-shadow: 0.625rem 0.625rem 0.3125rem #888;
+	-moz-box-shadow: 0.625rem 0.625rem 0.3125rem #888;
+	box-shadow: 0rem 0.0625rem 0.3125rem #e8e8e8;
+	-moz-border-radius: 0.5rem;
+	-webkit-border-radius: 0.5rem;
 }
 
 #substack-cta {
