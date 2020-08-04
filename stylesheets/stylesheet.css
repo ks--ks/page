@@ -137,6 +137,7 @@ a.button {
   -moz-border-radius: 8px;
   -webkit-border-radius: 8px;
 }
+
 a.button:hover {
   background: #fafafa; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f6f6f6 100%); /* FF3.6+ */
@@ -162,6 +163,21 @@ a.publication {
 	color: #6d6d6d;
 	text-decoration: underline;
 	text-decoration-color: #d5000d;
+}
+
+#volunteering {
+  padding-bottom: 20px;
+}
+
+a.badge {
+  display: block;
+  float: right;
+  margin-right: 54px;
+  margin-bottom: 14px;
+}
+
+img.badge {
+  height: 66px;
 }
 
 #view-on-linkedin span {
