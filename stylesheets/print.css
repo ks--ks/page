@@ -49,8 +49,10 @@ body {
 }
 
 a {
-  font-weight: bold;
-  color: #d5000d;
+  font-weight:;
+  color: black;
+  font-weight: inherit;
+  text-decoration: none;
 }
 
 header {
@@ -170,10 +172,6 @@ p {
   font-weight: 300;
 }
 
-a {
-  text-decoration: none;
-}
-
 p a {
   font-weight: 400;
 }
@@ -226,3 +224,11 @@ footer a {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+img.badge {
+  height: 4.125rem;
+}
+
+#substack-cta {
+  display: none;
+}
