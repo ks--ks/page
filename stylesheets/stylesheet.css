@@ -165,10 +165,6 @@ a.publication {
 	/* text-decoration-color: #d5000d; */
 }
 
-#volunteering {
-  padding-bottom: 1.25rem;
-}
-
 a.badge {
   display: block;
   float:   left;
@@ -294,12 +290,17 @@ h3 {
   font-size: 1.25rem;
   font-weight: bold;
   color: #d5000d;
+  padding-top: 1em;
 }
 
 h4 {
   font-size: 1rem;
   font-weight: bold;
   color: #303030;
+}
+
+#publications_content h4 {
+  padding-top: 1em;
 }
 
 h5 {
