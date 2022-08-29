@@ -171,8 +171,8 @@ a.publication {
 
 a.badge {
   display: block;
-  float: right;
-  margin-right: 3.375rem;
+  float:   left;
+  margin-left: 3.375rem;
   margin-bottom: 0.875rem;
 }
 
